@@ -5,10 +5,10 @@ class Fibonacci{
   Fibonacci({
     required this.count,
   });
-  List <int>calc(){
+  List<int>calc(){
 
     int number = 0;
-    List <int>fibo = [0];
+    List<int> fibo = [0];
 
     int _getNumber(n) {
       return n = fibo.last + fibo[fibo.length - 2];
@@ -22,3 +22,5 @@ class Fibonacci{
   }
   
 }
+
+    
